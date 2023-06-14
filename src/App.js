@@ -50,7 +50,7 @@ function App() {
     <BrowserRouter>
       <>
         <Navbar title='TextUtils1' aboutText='About TextUtils' btnText={btnText} mode={mode} toggleMode1={toggleMode1} toggleMode={toggleMode} />
-        <Alert alert={alert} />
+        <Alert alert={alert}/>
         <div className="container">
           <Routes>
             <Route path="/" element={<Textform showAlert={showAlert} heading='Enter the text to Capitalize' mode={mode} />} />
